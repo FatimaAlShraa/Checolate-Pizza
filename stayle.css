@@ -11,17 +11,110 @@ body{
 header{
     font-family: 'Dancing Script', cursive;
     background-color: white;
+    margin-top: 10px;
+   
 }
 header h1{
     margin-top: 10px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    
+   
     
 }
-#show{
-    float: left
+#show img{
+    float: left;
+    
 
 }
 header p{
     font-family: 'Anton', sans-serif;
     margin-bottom: 10px;
+  
+}
+
+
+    
+
+
+nav ul li{
+    display:inline-block;
+   float:right;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+   
+
+
+
+}
+
+main{
+    background-color: white;
+}
+h2{
+    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+}
+
+
+#photo{
+    display: block;
+    float: right;
+}
+#test{
+    text-align: right;
+    color: rgb(79, 121, 112);
+}
+
+
+#choco {
+text-align: center;
+/* display: inline-block; */
+
+
+}
+#cho{
+    width:100%;
+    
+
+}
+
+p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: 30px;
+    color: rgb(79, 121, 112);
+}
+#chocolateform{
+    background-image: url("img/list-bg.png" );
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+#chocolateform #milk{
+    text-align:right;
+}
+
+#fan{
+    clear:both;
+    float:left;
+
+}
+#btn{
+    float: right;
+    color:white;
+    padding:15px 32px;
+    border: none;
+    background-color: rgb(151, 7, 7);
+}
+footer{
+    clear:both;
+    text-align: center;
+    background-color: white;
+    
+    
+}
+footer p{
+    color:lightgray;
 }
